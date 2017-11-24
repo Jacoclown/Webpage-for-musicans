@@ -1,0 +1,783 @@
+/****************/	
+/* 				*/
+/* 				*/
+/* 				*/
+/* 				*/
+/*   ALS CSS    */
+/* 				*/
+/* 				*/
+/* 				*/
+/* 				*/
+/****************/	
+
+@font-face{
+    font-family: 'space age';
+    src: url("../fonts/space_age.ttf");
+}
+
+body {
+	font-family: 'space age';
+    width: 100%;
+	margin:0;
+	padding:0;
+	font-size:100%;
+    background: url('../img/spacewall.jpeg');
+	color: white;
+}
+
+.txt{
+    font-size: 3em;
+    padding-bottom: 30px;
+}
+
+#ALS{
+    font-size: 32px;
+}
+
+.menu-box{
+    display: none;
+}
+
+.slicknav_menu{
+    width: 100%;
+    position: fixed;
+    display: block;
+    box-sizing: border-box; !important
+    position: fixed;
+    z-index: 1030;
+  
+}
+
+.slicknav_btn {
+    position: relative;
+    display: block;
+    vertical-align: middle;
+    float: right;
+    padding: 0.438em 0.625em 0.438em 0.625em;
+    line-height: 1.125em;
+    cursor: pointer;
+}
+
+*/
+
+section{
+    display: inline-block;
+}
+
+.imgstore{
+    border-radius: 15%;
+}
+
+.buy-icon{
+    width: 50px !important;
+    height: 50px !important;
+}
+
+.txtcontent{
+    text-align: center;
+    font-size: 2em;
+}
+
+#info{
+    padding-top: 100px;
+}
+
+#about{
+    padding-top: 100px;
+    width: 70%;
+    margin: auto;
+}
+
+.aboutinfo{
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #202035;
+    border-radius: 7%;
+    margin-bottom: 50px;
+}
+
+.aboutimg{
+    width: 100%;
+    padding-right: auto;
+    padding-left: auto;
+    border-radius: 10%;
+}
+
+.cookiePolicy{
+    display: none; !important
+}
+
+.youtube{
+    max-width: 640px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#ytplayer01{
+    width: 100%;
+    padding-bottom: 20px;
+    margin: auto;
+    max-width: 640px;
+}
+
+#ytplayer02{
+    width: 100%;
+    padding-bottom: 20px;
+    margin: auto;
+    max-width: 640px;
+}
+
+#ytplayer03{
+    width: 100%;
+    padding-bottom: 20px;
+    margin: auto;
+    max-width: 640px;
+}
+
+#ytplayer04{
+    width: 100%;
+    padding-bottom: 20px;
+    margin: auto;
+    max-width: 640px;
+}
+
+#ytplayer05{
+    width: 100%;
+    padding-bottom: 20px;
+    margin: auto;
+    max-width: 640px;
+}
+
+
+#facebookframedesktop{
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+
+#facebookframemobile{
+    display: none;
+}
+
+    
+#facebookframemobilemicro{
+    display: none;
+}
+
+#gallery{
+    padding-top: 100px;
+    margin-bottom: -50px;
+}
+
+.gallery-wrapper{
+    width: 100%;
+    margin-bottom: 80px;
+}
+
+.txt-gallery-wrapper{
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+#storefilter{
+    font-family: 'space age';
+    background-color: aqua;
+}
+
+#store{
+    max-width: 500px;
+    margin: auto;
+    min-height: 400px;
+    padding-top: 100px;
+}
+
+#newsstand{
+    width: 70%;
+    margin: auto;
+    max-width: 750px;
+}
+
+.news{
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #202035;
+    border-radius: 7%;
+    margin-bottom: 50px;
+}
+
+.newstitle{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 2em; 
+}
+
+ .newsimg{
+    width: 95%;
+    padding-right: auto;
+    padding-left: auto;
+    border-radius: 10%;
+}
+
+.onethird{
+    float: none;
+    margin: auto;
+    padding-top : 20px;
+    max-height: 90%;
+    width: 65%;
+}
+
+.twothirds{
+    padding-top : 20px;
+}
+
+.newscontent{
+    text-align: justify;
+    padding-bottom: 20px;
+    font-family: sans-serif;
+    padding-left: 17%;
+    padding-right: 21%;
+}
+
+.product{
+        box-sizing: border-box;
+        margin: 7%;
+    }
+
+.product img{
+    display: block;
+    margin: auto;
+    box-sizing: border-box;
+    width: 100%;
+    padding-bottom: 5px;
+    }
+
+.producttitle{
+    text-align: center;
+    margin: auto;
+    max-width: 60%;
+}
+
+#contact{
+    padding-top: 100px;
+    margin-bottom: 200px;
+    height: auto;
+}
+
+.presskitimg{
+    display: block;
+    margin: auto;
+    width: 40%;
+    max-width: 500px;
+    border-radius: 10%;
+}
+
+.contactfont{
+    text-align: center;
+    margin: auto;
+    display: block;
+    width: 40%;
+    padding-top: 15px;
+}
+
+footer{
+    background-color: #202035;
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+    margin-top: 50px;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    z-index: 1050;
+    }
+
+#socials{
+    width: 100%;
+}
+
+.socialicon {
+    width: 48px;
+    height: 48px;
+    margin-left: 8px;
+    background: url('../img/index_content/socials/socials.png');
+    float: left;
+    display: block;
+    -webkit-transition: background-position 0.2s ease;
+    -moz-transition: background-position 0.2s ease;
+    -o-transition: background-position 0.2s ease;
+    margin-bottom: 8px;
+}
+
+.fbsprite:hover{
+    background-position: 0 -48px;
+}
+
+.bcsprite{
+    background-position: -192px 0;
+}
+
+.bcsprite:hover{
+    background-position: -192px -48px;
+    border-radius: 50%;
+}
+
+.scsprite{
+    background-position: -240px 0;   
+}
+
+.scsprite:hover{
+    background-position: -240px -48px; 
+    }
+
+.ytsprite{
+    background-position: -48px 0;
+}
+    
+.ytsprite:hover{
+    background-position: -48px -48px;
+}
+    
+.insprite{
+    background-position: -144px 0;
+}
+    
+.insprite:hover{
+    background-position: -144px -48px;
+}
+
+.twsprite{
+    background-position: -96px 0;
+}
+    
+.twsprite:hover{
+    background-position: -96px -48px;
+}
+
+#asteriod_shark{
+    float: right;
+    height: 4em;
+    width: 8em;
+    border-radius: 70%; 
+    margin-left: 25px;
+}
+
+/*****************************************/	
+/* 				                         */
+/* 				                         */
+/* 				                         */
+/* 				                         */
+/*              Desktop                  */
+/* 				                         */
+/* 				                         */
+/* 				                         */
+/* 				                         */
+/*****************************************/	
+
+
+@media screen and (min-width: 1011px) {
+    
+    
+    .slicknav_menu {
+        display:none;
+    }
+    
+    header {
+        /*Teniendo el menu fijo en scrolling*/
+        position: fixed;
+        right: 0;
+        left: 0;
+        top: 0;
+        z-index: 1030;
+        background-color: #202035;
+        padding-bottom: 10px;
+        /*Si no se desea menu fijo en scrolling*/
+        /*
+        margin: 0 auto;
+        width: 98%;
+        height: 30px;
+        padding-left: 1%;
+        padding-right: 1%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        */
+    }
+    
+    #menu {
+        margin-top: 20px;
+        display: block; 
+        text-align: center;
+    }
+    
+    .sub-menu{
+        display: none; 
+        margin: 0;
+        position: relative;
+        top: 100%;
+        left: 0;
+        width: 12em;
+    }
+    
+    #menu li:hover > input[type="checkbox"] + .sub-menu {
+        display: block;
+        transition: all .125s ease-in-out;
+        -webkit-transition: all .125s ease-in-out;
+    }
+    
+    #menu a:hover {
+        transition: all .125s ease-in-out;
+        -webkit-transition: all .125s ease-in-out;
+        background-color: white;
+        padding: 5px 5px;
+        margin: 2px 5px;
+        color: black;
+        border-radius: 50%;
+    }
+    
+    #menu li{
+        position: relative;
+        display: block;
+        width: 9.5em;
+    }
+    
+    #menu ul li {
+        float: left;
+        text-align: center;
+        padding-left: 3px;
+        padding-top: 4px;
+        padding-bottom: 2px;
+    }
+    
+    #m-content{
+        display: none;
+    }
+    
+    #dsktp-content{
+        display: block;
+    }
+    
+    .owl-carousel img{
+    margin: auto;
+    display: block;
+    max-width: 60%;
+    max-height: 500px;
+    border-radius: 10%;
+    }
+    
+    .gallery-img{
+        display: none;
+    }
+    
+    .gallery-cover{
+        max-width: 500px;
+        max-height: 500px;
+        margin: auto;
+        display: block;
+    }
+    
+    #Logo{
+        border-radius: 50%;
+        position: absolute;
+        left: 35%;
+        top: 28%;
+    }
+    
+    
+    #socials{
+        position: relative;
+        width: 35%;
+        bottom: 0;
+    }
+}
+
+/*****************************************/	
+/* 				                         */
+/* 				                         */
+/* 				                         */
+/* 				                         */
+/* 				 Tablet                  */
+/* 				                         */
+/* 				                         */
+/* 				                         */
+/* 				                         */
+/*****************************************/	
+
+
+@media screen and (max-width: 1011px) {
+    
+    
+	#menu {
+		display: none;
+        position: fixed;
+        z-index: 1050;
+	}
+	
+    #m-content{
+        display: block;
+        margin-top: 20px;
+    }
+    
+    #dsktp-content{
+        display: none;
+    }
+    
+    .owl-carousel img{
+    margin: auto;
+    display: block;
+    max-width: 70%;
+    max-height: 350px;
+    border-radius: 10%;
+    }
+
+    #store{
+        padding-top: 50px;
+    }
+    
+    .product{
+        margin: auto;
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
+    
+    .product img{
+        margin: auto;
+        border-radius: 10%;
+        width: 60%;
+        height: 250px;
+        display: block;
+    }
+    
+	.js .slicknav_menu {
+		display:block;
+        background-color: #202035;
+	}
+    
+    .js .slicknav_brand {
+        text-align: center;
+    }
+    
+    .dsktptxt {
+        display: none;
+    }
+    
+    #about{
+        width: 90%;
+        margin: auto;
+    }
+    
+    #newsstand{
+        width: 90%;
+        margin: auto;
+    }
+    
+    #info{
+        padding-top: 50px;
+    }
+    
+    .news {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    .txtcontent{
+        font-size: 1em; 
+    }
+    
+    #gallery{
+        padding-top: 50px;
+    }
+}
+
+/*****************************************/	
+/* 				                         */
+/* 				                         */
+/* 				                         */
+/* 				                         */
+/* 				 Mobile                  */
+/* 				                         */
+/* 				                         */
+/* 				                         */
+/* 				                         */
+/*****************************************/	
+
+@media screen and (max-width: 750px) {
+    
+    #menu {
+		display:none;
+	}
+	
+    #m-content{
+        display: block;
+    }
+    
+    #dsktp-content{
+        display: none;
+    }
+    
+    .newscontent{
+        font-size: 0.8em;
+    }
+
+	.js .slicknav_menu {
+		display:block;
+        background-color: #202035;
+        /*max-height: 8%;*/
+        
+	}
+    
+    .js .slicknav_brand {
+        text-align: center;
+        font-size: 90%;
+    }
+    
+    .dsktptxt {
+        display: none;
+    }
+    
+    #info{
+        padding-top: 70px;
+    }
+    
+    #ytplayer01{
+        max-height: 250px;
+    }
+    
+    #ytplayer02{
+        max-height: 250px;
+    }
+    
+    #ytplayer03{
+        max-height: 250px;
+    }
+    
+    #ytplayer04{
+        max-height: 250px;
+    }
+    
+    #ytplayer05{
+        max-height: 250px;
+    }
+    
+    #gallery{
+        padding-top: 70px;
+    }
+    
+    #store{
+        padding-top: 70px;
+    }
+    
+    #contact{
+        padding-top: 70px;
+    }
+    
+    .newstitle{
+        padding-top: 20px;
+        font-size: 1em; 
+    }
+    
+    .newscontent{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    
+    .onethird{
+        width: 100%;
+    }
+    
+    #contact{
+    margin-bottom: 180px;
+    }
+
+    #asteriod_shark{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    
+        #facebookframedesktop{
+        display: none;
+    }
+    
+        #facebookframemobile{
+        width: 300px;
+        display: block;
+        margin: auto;
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+    
+}
+
+@media screen and (max-width: 377px) {
+    
+        #facebookframemobile{
+        display: none;
+    }
+    
+        #facebookframemobilemicro{
+        width: 200px;
+        display: block;
+        margin: auto;
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+    
+}
+
+/*****************************************/	
+/* 				                         */
+/* 				                         */
+/*               Credits:                */
+/* 				                         */
+/* 				                         */
+/* 			    All page by:	         */
+/* 				                         */
+/*      The bassist of the band Jaco     */
+/* 		  jorge.jaco.bass@gmail.com	     */
+/* 				                         */
+/* 				                         */
+/* 				                         */
+/* 				                         */
+/* 				                         */
+/* 	            Thanks to:               */
+/* 				                         */
+/* 		  Luis José González Gómez       */
+/* 				                         */
+/* 				 Plug-ins...             */
+/* 				                         */
+/* 				  jQuery                 */
+/* 			http://bit.ly/1kAYQCH	     */
+/* 				                         */
+/* 				 Slicknav                */
+/* 		   http://bit.ly/1pNgOIg	     */
+/* 				                         */
+/* 				   WOW                   */
+/* 		   http://bit.ly/1lACOFK		 */
+/* 				                         */
+/* 				   OWL                   */
+/*         http://bit.ly/1acf4Dl	     */
+/* 				                         */
+/* 				 Fancybox                */
+/*         http://bit.ly/1b0Df8b	     */
+/* 				                         */
+/* 		       Animate Scroll            */
+/*         http://bit.ly/2mROAOY	     */
+/* 				                         */
+/* 				 Icons...                */
+/* 				                         */
+/* 			   Shota MIckaia             */
+/*         http://bit.ly/1lDKSah         */
+/* 				                         */
+/* 		  Ivlichev Viktor Petrovich      */
+/* 		   http://bit.ly/1O99zCP	     */
+/* 				                         */
+/* 		       Oliver Pitsch             */
+/* 		   http://bit.ly/1QvuG8M	     */
+/* 				                         */
+/* 		     Webdesigner Depot           */
+/* 		    http://bit.ly/UhhSbB	     */
+/* 				                         */
+/*****************************************/	
